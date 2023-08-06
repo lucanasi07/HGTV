@@ -2,7 +2,6 @@
 	"credit": "Made by Luca Nasi",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"0": "icon/icon",
-		"particle": "icon/icon"
+		"layer1": "hgtv:icon/icon"
 	}
 }
