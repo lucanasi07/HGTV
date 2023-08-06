@@ -1,5 +1,6 @@
 package com.lucanasi.hgtv;
 
+import com.lucanasi.hgtv.item.RegisterCreativeModTabs;
 import com.lucanasi.hgtv.item.RegisterItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -19,6 +20,8 @@ public class HGTV {
     public HGTV() { // Constructor della mod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        RegisterCreativeModTabs.register(eventBus);
+
         RegisterItems.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -27,9 +30,7 @@ public class HGTV {
     }
 
     private void addCreative (BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(RegisterItems.CREATIVE_COVER);
-        }
+
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
