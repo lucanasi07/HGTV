@@ -23,6 +23,7 @@ public class HGTV {
 
         MinecraftForge.EVENT_BUS.register(this);
         eventBus.addListener(Common::init);
+        eventBus.addListener(this::addCreative);
     }
 
     private void addCreative (BuildCreativeModeTabContentsEvent event) {
