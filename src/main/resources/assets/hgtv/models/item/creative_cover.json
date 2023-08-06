@@ -1,4 +1,5 @@
 {
+  "credit": "Made by Luca Nasi",
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "hgtv:icon/icon"
