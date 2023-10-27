@@ -1,4 +1,4 @@
-package com.lucanasi.hgtv;
+package com.liuk_noceda.hgtv;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;

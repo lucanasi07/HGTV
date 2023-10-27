@@ -1,6 +1,6 @@
-package com.lucanasi.hgtv.item;
+package com.liuk_noceda.hgtv.item;
 
-import com.lucanasi.hgtv.HGTV;
+import com.liuk_noceda.hgtv.HGTV;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

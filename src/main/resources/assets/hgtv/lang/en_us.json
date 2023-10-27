@@ -1,7 +1,8 @@
 {
+"block.hgtv.record_player_dark": "Record Player Dark",
 
 
   "item.hgtv.creative_cover": "Creative Cover",
 
-  "creativetab.hgtv_main_tab": "HGTV - Home & Garden"
+  "creative.hgtv_main_tab": "HGTV - Home & Garden"
 }

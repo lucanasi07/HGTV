@@ -1,6 +1,6 @@
-package com.lucanasi.hgtv.item;
+package com.liuk_noceda.hgtv.item;
 
-import com.lucanasi.hgtv.HGTV;
+import com.liuk_noceda.hgtv.HGTV;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -15,7 +15,7 @@ public class RegisterCreativeModTabs {
 
     public static final RegistryObject<CreativeModeTab> HGTV_MAIN_TAB = CREATIVE_MODE_TABS.register("hgtv_main_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(RegisterItems.CREATIVE_COVER.get()))
-                    .title(Component.translatable("creativetab.hgtv_main_tab"))
+                    .title(Component.translatable("creative.hgtv_main_tab"))
                     .displayItems((p_270258_, p_259752_) -> {
                         p_259752_.accept(RegisterItems.CREATIVE_COVER.get());
 
