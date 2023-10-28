@@ -1,6 +1,7 @@
 package com.liuk_noceda.hgtv.item;
 
 import com.liuk_noceda.hgtv.HGTV;
+import com.liuk_noceda.hgtv.block.RegisterBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,10 +19,7 @@ public class RegisterCreativeModTabs {
                     .title(Component.translatable("creative.hgtv_main_tab"))
                     .displayItems((p_270258_, p_259752_) -> {
                         p_259752_.accept(RegisterItems.CREATIVE_COVER.get());
-
-
-
-
+                        p_259752_.accept(RegisterBlocks.RECORD_PLAYER_DARK.get());
 
                     })
                     .build());
